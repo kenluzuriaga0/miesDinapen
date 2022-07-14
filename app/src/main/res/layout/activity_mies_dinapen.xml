@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:background="@color/black"
+    android:rowCount="6"
+    android:orientation="horizontal"
+    tools:context=".Mies_Dinapen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="370dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+               >
+                <TextView
+
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/border"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="Hora_y_Localizacion"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="220px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="Latitud:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtAreaLatitud"
+                    android:layout_width="500px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="-20dp"
+                    android:enabled="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="Longitud:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txtAreaLongitud"
+                    android:layout_width="190dp"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="-60px"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="220px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginTop="10dp"
+                    android:text="Hora:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/txthora"
+                    android:layout_width="500px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="-60px"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="150px"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_explorer"
+                    />
+
+                <Button
+                    android:id="@+id/btnDireccion"
+                    android:layout_width="450px"
+                    android:layout_height="100px"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="-110px"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_explorer"
+                    android:text="Ubicacion "
+                    android:textColor="@color/white" />
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="370dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="-370dp"
+                android:layout_marginTop="260dp"
+                android:background="@drawable/border"
+                android:columnCount="4"
+                android:orientation="vertical"
+                android:rowCount="6">
+                <TextView
+                    android:layout_width="420px"
+                    android:layout_height="68px"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Captura de Fotos"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/ImagenFoto"
+                    android:layout_width="169dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp" />
+
+                <Button
+                    android:id="@+id/BtnTomarFotos"
+                    android:layout_width="145dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="-150dp"
+                    android:layout_marginLeft="210dp"
+                    android:background="@android:color/transparent"
+                    android:text="Tomar Foto"
+                    android:textColor="@color/white"
+
+                    />
+
+                <Button
+                    android:id="@+id/botonGuardar"
+                    android:layout_width="400px"
+                    android:layout_height="48dp"
+                    android:layout_margin="185dp"
+                    android:layout_marginLeft="210dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_ubicacion"
+                    android:text="@string/BtnTomarFotos"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="-230dp"
+                    android:layout_marginLeft="180dp"
+                    android:src="@drawable/ic_saved" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="110dp"
+                    android:src="@drawable/ic_camara" />
+
+            </GridLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="329dp"
+        android:layout_marginBottom="46dp"
+        android:backgroundTint="#7E41D5"
+        app:srcCompat="@drawable/ic_mic_24"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/GuardarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="329dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#7E41D5"
+        app:srcCompat="@drawable/ic_camara"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

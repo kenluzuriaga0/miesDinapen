@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"> Mies-Dinapen</string>
+    <string name="login">Cédula</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="TituloCrearCuenta">Crear Cuenta</string>
+    <string name="BtnDireccion">Buscar Mapa</string>
+    <string name="BtnTomarFotos">Guardar Foto</string>
+    <string name="txtBusqueda"> Direccion</string>
+    <string name="title_activity_seleccionar_direccion">SeleccionarDireccion</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lista_incidentes">Lista_Incidentes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
